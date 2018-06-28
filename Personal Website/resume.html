@@ -1,0 +1,151 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/normalize.css" type="text/css">
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+        <link rel="stylesheet" href="CSS/resumestyle.css" type="text/css">
+
+        <meta charset="UTF-8">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+
+        <!-- Hamburger Menu -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+        <!-- Tab Icon -->
+        <link rel="icon" href="img/thlogo.png">
+
+        <!-- p5 -->
+        <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+        <style> body {padding: 0; margin: 0;} </style>
+        <script src="p5.min.js"></script>
+        <script src="addons/p5.dom.min.js"></script>
+        <script src="addons/p5.sound.min.js"></script>
+        <script src="p5/sketch.js"></script>
+
+        <title>Taylor Hershberger</title>
+    </head>
+
+    <body>
+        <div id="sketch-holder"></div>
+
+        <div class="Container">
+            <div class="Header">
+                <div id="name">
+                    <h1>Taylor Hershberger</h1>
+                </div>
+            </div>
+
+            <div class="Menu" id="nav">
+                <ul> 
+                    <li><a href="contact.html">Contact</a></li> 
+                    <li><a href="mywork.html">My Work</a></li> 
+                    <li class="selected"><a href="resume.html">Resume</a></li> 
+                    <li><a href="index.html">About Me</a></li>  
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i id="iconcust" class="fa fa-bars"></i>
+                    </a> 
+                </ul>
+            </div>
+
+            <div class="logo"><a href="index.html"><img class="logoimage" src="img/thlogo.png" alt="taylor hershberger logo"></a></div>
+
+            <div class="specialties"><p>Web Development   |   Graphic Design   |   UX Design</p></div>
+
+            <div class="sectionheader" id="section">
+                <h2 class="sectiontitle">Resume</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="Body">
+                <div class="resumesection">
+                    <h3 class="label">Objective</h3>
+                    <p class="content">Web developer with experience in user interface and graphic design, looking for a job that is going to help this life-long learner grow. Reliable, hardworking, and a go-getter, I have a lot to offer, as well as a passion for clean code and beautiful web design.</p>
+                </div>
+
+                <div class="bodydivider">
+                    <div class="line"></div>
+                </div>
+
+                <div class="resumesection">
+                    <h3 class="label">Education</h3>
+                    <p class="content">Graduated from Coronado High School in May 2014 <br> Graduated from the University of Colorado at Boulder in May 2018 Received a BS in TAM (Technology, Arts, and Media) with a focus in interactivity from the College of Engineering and Applied Sciences</p>
+                </div>
+
+                <div class="bodydivider">
+                    <div class="line"></div>
+                </div>
+
+                <div class="resumesection">
+                    <h3 class="label">Work Experience</h3>
+                    <p class="content">Cannabis Marketing Association <br>Intern<br>February 2018 - June 2018<br>The Cannabis Marketing Association is a small start-up company that I wore a lot of hats for. Mostly I worked on social media, web design, and graphic design.</p>
+                    <p class="content">Univ. of Colo. Police Department<br>CSO (campus safety officer)<br>September 2015 - May 2018<br>As a CSO I was responsible for securing academic buildings and patrolling campus at night.</p>
+                    <p class="content">Nanny<br>May 2013 - September 2017<br>As a nanny I would take care of kids part time throughout the summer and school year.</p>
+                    <p class="content">CU Bookstore<br>Sales Associate<br>January 2015 - May 2015<br>I operated a cash register, restocked items, and helped customers.</p>
+                </div>
+
+                <div class="bodydivider">
+                    <div class="line"></div>
+                </div>
+
+                 <div class="resumesection">
+                    <h3 id="inlineblock" class="label">Extracurriculars</h3>
+                    <p class="content">CU Womens Rugby Team<br>Social Media Officer<br>May 2017 - May 2018<br>I spent all four years on the rugby team and during my last year I ran our social media accounts and website.</p>
+                    <p class="content">NVC Creative Track Winner<br>1st Place<br>March 2018 - April 2018<br>The company I was a part of placed first in the creative industies track during the New Venture Challenge.</p>
+                </div>
+
+                <div class="bodydivider">
+                    <div class="line"></div>
+                </div>
+
+                <div class="resumesection">
+                    <h3 class="sublabel">Skills</h3>
+                    <h4 class="label">Code</h4>
+                    <p class="content">HTML<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">CSS<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">JavaScript<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">Jquery<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">C++<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">Java<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+
+                    <h4 class="label">Design</h4>
+                    <p class="content">Illustrator<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">XD<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">Photoshop<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">After Effects<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">Premier<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                    <p class="content">Rhino<i class="fas fa-circle"></i><i class="fas fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i><i class="far fa-circle"></i></p>
+                </div>
+
+                <div class="bodydivider">
+                    <div class="line"></div>
+                </div>
+
+                <p id="inlineblock" class="downloadlabel">Click here to download my resume in pdf format.</p>
+                <a id="download" href="img/TaylorHershberger_Resume.pdf" download><p id="inlineblock" class="downloadbutton">Download</p></a>
+
+            </div>
+        </div>
+
+        <script src="Javascript/script.js"></script>
+
+    </body>
+
+    <footer>
+        <div class="Footer">
+            <div class="socialicons">
+                <a href="https://www.linkedin.com/in/taylor-hershberger-815767164/"><img class="socialicon" src="img/linkedin.png" alt="linkedin link"></a>
+                <a href="https://thershblog.wordpress.com"><img class="socialicon" src="img/wordpress.png" alt="wordpress link"></a>
+                <a href="https://github.com/TaylorDay11"><img class="socialicon" src="img/github.png" alt="github link"></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- <script src="script.js"></script> -->
+</html>

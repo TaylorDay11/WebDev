@@ -1,0 +1,79 @@
+
+<!DOCTYPE HTML>
+<html>
+	<head>
+
+		<title>Colorado Rent Control Ban</title>
+
+		<link rel="icon" href="../img/icon.png">
+		
+		<meta charset="UTF-8">
+
+		<link rel="stylesheet" href="../css/project3.css">
+
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Raleway" rel="stylesheet">
+
+      	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+      	</script>
+
+      	<style>
+      		html{
+      			background-image: url("../img/city7.png"); 
+      		}
+      	</style>
+
+	</head>
+
+	<body>
+		<div class="wrapper">
+			<h1>Colorado Rent Control Ban</h1>
+
+			<h2>Your Score:</h2>
+
+			<div id="finalscore"></div>
+
+			<h2>Enter Your Name:</h2>
+
+			<div class="input">
+
+				<form>
+					<div>
+						<label for="name" class="label"></label>
+						<input name="name" type="text" id="name" size="12">
+					</div>
+				</form>
+
+				<button class="enter">Enter</button>
+			</div>
+
+			<!-- <div class="button"><a href="../project3.html">Try Again?</a></div> -->
+
+			<div class="scoreboard">
+				<span class="name_heading">Name</span>
+
+				<span class="score_heading">Score</span>
+
+				<div id="scores"></div>
+			</div>
+
+
+			<script src="https://www.gstatic.com/firebasejs/3.9.0/firebase.js"></script>
+			<script>
+			  // Initialize Firebase
+			  var config = {
+			    apiKey: "AIzaSyD6Rc5BMz5srHX_pF_hwTnWJOp_eLD5caQ",
+			    authDomain: "project-3-ddff0.firebaseapp.com",
+			    databaseURL: "https://project-3-ddff0.firebaseio.com",
+			    projectId: "project-3-ddff0",
+			    storageBucket: "project-3-ddff0.appspot.com",
+			    messagingSenderId: "795025823917"
+			  };
+			  firebase.initializeApp(config);
+			</script>
+		</div>
+
+		<script src="../javascript/project3.js"></script>
+		<script src="../javascript/score.js"></script>
+
+	</body>
+</html>

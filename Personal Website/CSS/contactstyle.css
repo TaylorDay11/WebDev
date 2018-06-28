@@ -1,0 +1,83 @@
+.Body{
+	margin-left: 27%;
+}
+
+#inlineblock{
+	display: inline-block;
+}
+
+p{
+	margin-right: 0px;
+}
+
+.specialties{
+	margin-right: 40px;
+}
+
+/* Contact Info */
+.contactinfo{
+	margin: 0px 0px 0px 9px;
+}
+
+.label{
+	float: left;
+}
+
+.contact{
+	float: right;
+}
+
+/* Body Divider */
+.bodydivider{
+	float: left;
+	margin: -26px 0px 40px 0px;
+}
+
+.circle{
+	width: 8px;
+	height: 8px;
+	border-radius: 50%;
+	background-color: #414042;
+}
+
+.line{
+	height: 2px;
+	width: 500px;
+	background-color: #414042;
+	margin: 0px 0px 3px -4px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1090px) {
+	.Body{
+		margin-left: 25%;
+	}
+
+}
+
+@media screen and (max-width: 888px) {
+	.Body{
+		margin-left: 20%;
+	}
+
+}
+
+@media screen and (max-width: 813px) {
+
+}
+
+@media screen and (max-width: 700px){
+	.line{
+		width: 270px;
+	}
+
+	.Body{
+		margin-left: 15%;
+	}
+}
+
+
+
+
+
+

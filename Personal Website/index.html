@@ -1,0 +1,105 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <link rel="stylesheet" href="CSS/normalize.css" type="text/css">
+        <link rel="stylesheet" href="CSS/style.css" type="text/css">
+
+        <meta charset="UTF-8">
+
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+
+        <link href="https://fonts.googleapis.com/css?family=Gothic+A1" rel="stylesheet">
+
+        <!-- Jquery -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+        <!-- Hamburger Menu -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        <!-- Tab Icon -->
+        <link rel="icon" href="img/thlogo.png">
+
+        <!-- p5 -->
+        <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+        <style> body {padding: 0; margin: 0;}</style>
+        <script src="p5.min.js"></script>
+        <script src="addons/p5.dom.min.js"></script>
+        <script src="addons/p5.sound.min.js"></script>
+        <script src="p5/sketch.js"></script>
+
+        <title>Taylor Hershberger</title>
+    </head>
+
+    <body>
+        <div id="sketch-holder"></div>
+
+        <div class="Container">
+            <div class="Header">
+                <div id="name">
+                    <h1>Taylor Hershberger</h1>
+                </div>
+            </div>
+
+            <div class="Menu" id="nav">
+                <ul> 
+                    <li><a href="contact.html">Contact</a></li> 
+                    <li><a href="mywork.html">My Work</a></li> 
+                    <li><a href="resume.html">Resume</a></li> 
+                    <li class="selected"><a href="index.html">About Me</a></li>  
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i id="iconcust" class="fa fa-bars"></i>
+                    </a> 
+                </ul>
+            </div>
+
+            <div class="logo"><a href="index.html"><img class="logoimage" src="img/thlogo.png" alt="taylor hershberger logo"></a></div>
+
+            <div class="specialties"><p>Web Development   |   Graphic Design   |   UX Design</p></div>
+
+            <div class="sectionheader" id="section">
+                <h2 class="sectiontitle">About Me</h2>
+                <div class="divider"></div>
+            </div>
+
+            <div class="Body">
+                <div class="aboutme">
+                    <p>Hi, my name is Taylor.</p> 
+
+                    <p>I’m a recent college graduate with a passion for web development and user interface design. When I’m not glued to my laptop I like to craft, play video games, travel, and play with my dog. I also played on the CU Women's Rugby team for four years.</p>
+
+                    <p>I have a unique degree, most people haven’t heard of TAM. It was an exciting program to be a part of because I was able to combine my technical skills with my creative skills. We were one of smallest majors on campus and had an amazing opportunity to work with a wide range of technology. Some of the coolest things I learned to do were build websites, program Arduino, 3D print, code apps, and design interfaces.</p>
+                </div>
+
+                <div class="headshot"><img class="headshotimage" src="img/Headshot.png" alt="head shot of Taylor Hershberger"></div>
+
+                <div class="bodydivider">
+                    <div class="line"></div>
+                </div>
+
+                <div class="personalitypics">
+                    <div class="chicken" id="displayinline"><img id="imageresize" class="chickenimage" src="img/chicken_bw.jpg" alt="selfie with chickens"></div>
+
+                    <div class="rugby" id="displayinline"><img id="imageresize" class="rugbyimage" src="img/rugby_bw.jpg" alt="rugby team posing post game"></div>
+
+                    <div class="topher" id="displayinline"><img id="imageresize" class="topherimage" src="img/topher_bw.jpg" alt="black dog looking majestic"></div>
+                </div>
+            </div>
+        </div>
+
+        <script src="Javascript/script.js"></script>
+
+    </body>
+
+    <footer>
+        <div class="Footer">
+            <div class="socialicons">
+                <a href="https://www.linkedin.com/in/taylor-hershberger-815767164/"><img class="socialicon" src="img/linkedin.png" alt="linkedin link"></a>
+                <a href="https://thershblog.wordpress.com"><img class="socialicon" src="img/wordpress.png" alt="wordpress link"></a>
+                <a href="https://github.com/TaylorDay11"><img class="socialicon" src="img/github.png" alt="github link"></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="JavaScript/aboutmescript.js"></script>
+</html>

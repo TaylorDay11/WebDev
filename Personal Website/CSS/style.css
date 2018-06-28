@@ -1,0 +1,441 @@
+/* 
+Fonts
+font-family: 'Lucida Handwriting', italics;
+p font-family: 'Gothic A1', sans-serif;
+nav font-family: 'Karla', sans-serif;
+*/
+
+/*
+Colors
+header & footer & p #414042
+nav #58595b
+hover #747575
+*/ 
+
+/* Sketch */
+#sketch-holder{
+	position: fixed;
+	z-index: -1;
+}
+
+/* Header */
+.Header{
+	background-color: #414042;
+	height: 180px;
+	position: relative;
+}
+
+#name{
+	float: right;
+	margin-right: 6%;
+	margin-top: 20px;
+}
+
+h1{
+	color: white;
+	font-family: 'Lucida Handwriting', italics;
+	font-size: 3.5em;
+}
+
+h3{
+	font-family: 'Karla', sans-serif;
+}
+
+a{
+	color: #414042;
+	text-decoration: none;
+}
+
+/* Navigation */
+.Menu{
+	background-color: #58595b;
+	height: 60px;
+	position: relative;
+}
+
+.Menu .icon{
+	display: none;
+}
+
+ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li a{
+	font-family: 'Karla', sans-serif;
+	color: white;
+    width: 80px;
+    text-decoration: none;
+    float: right;
+    padding: 21px 15px 21px 15px;
+    text-align: center;
+    height: 18px;
+    background-color: #58595b;
+}
+
+li.selected a{
+	color: #58595b;
+	background-color: white;
+}
+
+li.selected :hover{
+	background-color: #dbdbdb;
+}
+
+li :hover{
+	background-color: #747575;
+}
+
+/* Logo */
+.logo{
+	float: left;
+}
+
+.logoimage{
+	height: 320px;
+	position: absolute;
+	float: left;
+	top: 0;
+	left: 0;
+	margin: 30px 0px 0px 80px;
+}
+
+/* Section Header */
+.specialties{
+	float: right;
+	margin: 47px 0px 0px 10px;
+}
+
+.sectionheader{
+	margin: 120px 0px 0px 0px;
+}
+
+h2{
+	font-family: 'Gothic A1', sans-serif;
+	color: #414042;
+	margin: 0px 0px 2px 100px;
+}
+
+.sectiontitle :hover{
+	color: #6a54a3;
+}
+
+.divider{
+	height: 2px;
+	background-color: #414042;
+}
+
+/* Body Divider */
+.bodydivider{
+	margin: 360px 0px 40px 0px;
+}
+
+.line{
+	height: 2px;
+	width: 100%;
+	background-color: #d9d9d9;
+	margin: -5px 0px 3px 0px;
+}
+
+/* Personality Pics */
+.personalitypics{
+	margin: 0 auto;
+	width: 100%;
+	margin-top: 20px;
+	margin-left: 7%;
+	float: left;
+}
+
+#displayinline{
+	display: inline-block;
+	margin-left: 5%;
+}
+
+#imageresize{
+	width: 250px;
+}
+
+/* Body */
+.Body{
+	margin: 70px 100px 70px 100px;
+	display: inline-block;
+}
+
+p{
+	font-family: 'Karla', sans-serif;
+	color: #414042;
+	font-size: 1.05em;
+	margin-right: 40px;
+	line-height: 20px;
+}
+
+.aboutme{
+	float: left;
+	width: 55%;
+	margin: 0px 0px 0px 40px;
+}
+
+.headshot{
+	float: right;
+	margin-right: 40px;
+}
+
+.headshotimage{
+	width: 300px;
+}
+
+/* Footer */
+.Footer{
+	height: 70px;
+	background-color: #414042;
+}
+
+.socialicons{
+	margin: auto;
+	width: 25%;
+}
+
+.socialicon{
+	height: 40px;
+	margin: auto;
+	padding: 17px 0px 0px 50px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1090px) {
+
+	h1{
+		font-size: 2.5em;
+	}
+
+	#name{
+		margin-top: 50px;
+	}
+
+	.logoimage{
+		height: 300px;
+	}
+
+	.Body{
+		margin: 80px 30px 40px 80px;
+	}
+
+	p{
+		font-size: 1em;
+	}
+
+	.aboutme{
+		width: 50%;
+	}
+
+	.bodydivider{
+		margin: 400px 0px 40px 0px;
+	}
+
+	.socialicon{
+		padding: 17px 0px 0px 35px;
+	}
+
+	.personalitypics{
+		margin: 0 auto;
+		width: 100%;
+		margin-top: 20px;
+		margin-left: 20px;
+		float: left;
+	}
+
+	#displayinline{
+		display: inline-block;
+		margin-left: 20px;
+	}
+
+	#imageresize{
+		width: 225px;
+	}
+
+}
+
+@media screen and (max-width: 888px) {
+
+	h1{
+		font-size: 2em;
+	}
+
+	#name{
+		margin-top: 60px;
+	}
+
+	.logoimage{
+		height: 275px;
+	}
+
+	.Body{
+		margin: 60px 30px 40px 60px;
+	}
+
+	p{
+		font-size: 1em;
+	}
+
+	.aboutme{
+		width: 45%;
+	}
+	
+	#displayinline{
+		margin-left: 5px;
+	}
+
+	.bodydivider{
+		margin: 490px 0px 40px 0px;
+	}
+
+	.socialicon{
+  		padding: 17px 0px 0px 15px;
+  	}
+
+}
+
+@media screen and (max-width: 813px) {
+	#name{
+		display: none;
+	}
+
+	.logoimage{
+		margin-left: 10%;
+	}
+
+	.Body{
+		margin-top: 30px;
+	}
+
+	.headshot{
+		float: none;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	margin-top: 40px;
+    	width: 50%;
+	}
+
+	.aboutme{
+		float: none;
+		display: block;
+    	margin-left: auto;
+    	margin-right: auto;
+    	width: 100%;
+    	font-size: .95em;
+	}
+
+	.Menu a {
+		display: none;
+	}
+  	
+  	.Menu a.icon {
+    	float: right;
+   	 	display: block;
+  	}
+
+  	#iconcust{
+  		color: white;
+   	 	width: 50px;
+   	 	margin: 20px 20px 0px 0px;
+  	}
+
+  	.Menu.responsive {
+  		position: relative;
+  	}
+
+  	.Menu.responsive a.icon {
+   		 position: relative;
+   		 width: 94%;
+    	margin-bottom: 30px;
+    	background-color: #58595b;
+    	padding-right: 30px;
+    	padding-bottom: 10px;
+  	}
+
+  	.icon{
+  		font-size: 30px;
+  		
+  	}
+
+  	.Menu.responsive a {
+  		float: none;
+    	display: block;
+    	text-align: right;
+    	width: 96%;
+    	position: relative;
+  	}
+
+  	.sectionheader.responsive{
+  		margin-top: 280px;
+  	}
+
+  	.bodydivider{
+		margin: 70px 0px 40px 0px;
+	}
+
+  	#displayinline{
+  		display: block;
+  		margin-top: 20px;
+  	}
+
+  	.personalitypics{
+  		margin-left: 30%;
+  	}
+
+  	.socialicon{
+  		padding: 17px 0px 0px 15px;
+  	}
+
+}
+
+@media screen and (max-width: 700px){
+	.headshot{
+		margin-left: 0%;
+	}
+
+	.specialties{
+		font-size: .9em;
+		margin-top: 55px;
+	}
+
+	h2{
+		margin-left: 50px;
+	}
+
+	.logoimage{
+		height: 250px;
+		margin-left: 20px;
+	}
+
+	.Menu.responsive a {
+    	width: 93.9%;
+  	}
+
+  	.personalitypics{
+  		margin-left: 7%;
+  	}
+
+  	.socialicons{
+  		width: 50%;
+  	}
+
+  	.socialicon{
+  		padding: 17px 0px 0px 15px;
+  	}
+}
+
+@media screen and (max-width: 600px){
+	.socialicons{
+  		width: 50%;
+  	}
+
+
+  	.socialicon{
+  		padding: 17px 0px 0px 15px;
+  	}
+}
+
